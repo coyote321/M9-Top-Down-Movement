@@ -9,7 +9,7 @@
 
 [node name="SimpleObstacle" parent="." instance=ExtResource("2_4o7yg")]
 y_sort_enabled = true
-position = Vector2(637, 118)
+position = Vector2(649, 113)
 
 [node name="Runner" parent="." instance=ExtResource("1_yasw7")]
 position = Vector2(476, 324)
@@ -21,7 +21,7 @@ scale = Vector2(0.5171875, 0.39769346)
 texture = ExtResource("3_gkp25")
 
 [node name="StaticBody2D" parent="." instance=ExtResource("4_sepuf")]
-visible = false
+position = Vector2(0, 0)
 
 [node name="SimpleObstacle2" parent="." instance=ExtResource("2_4o7yg")]
 position = Vector2(909, 164)
