@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwdga860bidlx"]
+
+[ext_resource type="Script" uid="uid://op2o1fon5hjw" path="res://character_body_2d.gd" id="1_h1hi2"]
+[ext_resource type="Texture2D" uid="uid://c0i1ik45p7rhh" path="res://assets/runner_down.png" id="2_ipi7s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_44cfe"]
+radius = 13.0
+
+[node name="Runner" type="CharacterBody2D"]
+position = Vector2(300, 204)
+motion_mode = 1
+script = ExtResource("1_h1hi2")
+
+[node name="Skin" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-84.99999, -41.499996)
+scale = Vector2(0.34374997, 0.41406256)
+texture = ExtResource("2_ipi7s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-85, -30)
+shape = SubResource("CircleShape2D_44cfe")
