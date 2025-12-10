@@ -12,7 +12,7 @@ y_sort_enabled = true
 position = Vector2(649, 113)
 
 [node name="Runner" parent="." instance=ExtResource("1_yasw7")]
-position = Vector2(476, 324)
+position = Vector2(471, 297)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = -1
@@ -21,7 +21,7 @@ scale = Vector2(0.5171875, 0.39769346)
 texture = ExtResource("3_gkp25")
 
 [node name="StaticBody2D" parent="." instance=ExtResource("4_sepuf")]
-position = Vector2(0, 0)
+position = Vector2(46, -4)
 
 [node name="SimpleObstacle2" parent="." instance=ExtResource("2_4o7yg")]
 position = Vector2(909, 164)
