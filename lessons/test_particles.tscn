@@ -20,8 +20,8 @@ colors = PackedColorArray(0.95703125, 0.49951494, 0.05607605, 1, 0.9511719, 0.07
 gradient = SubResource("Gradient_7shq5")
 
 [sub_resource type="Curve" id="Curve_jvfiu"]
-_data = [Vector2(0, 0), 0.0, 6.7964272, 0, 0, Vector2(0.17571884, 1), 0.0, 0.0, 0, 0, Vector2(0.7859425, 0.026138544), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.015536728, 0.0, 0, 0]
-point_count = 4
+_data = [Vector2(0.014127143, 0.003135085), 0.0, 9.496874, 0, 0, Vector2(0.77901113, 0.020759225), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.015536728, 0.0, 0, 0]
+point_count = 3
 
 [sub_resource type="CurveTexture" id="CurveTexture_7shq5"]
 curve = SubResource("Curve_jvfiu")
@@ -36,8 +36,8 @@ direction = Vector3(1, -1, 0)
 spread = 0.0
 initial_velocity_min = 50.0
 initial_velocity_max = 70.0
-gravity = Vector3(0, -10, 0)
 scale_min = 0.19999999
+scale_max = 0.19999999
 scale_curve = SubResource("CurveTexture_7shq5")
 color_ramp = SubResource("GradientTexture1D_pfdc8")
 alpha_curve = SubResource("CurveTexture_jvfiu")
@@ -48,5 +48,5 @@ alpha_curve = SubResource("CurveTexture_jvfiu")
 material = SubResource("CanvasItemMaterial_tijor")
 amount = 30
 texture = ExtResource("1_tijor")
-lifetime = 3.0
+lifetime = 4.0
 process_material = SubResource("ParticleProcessMaterial_pfdc8")
