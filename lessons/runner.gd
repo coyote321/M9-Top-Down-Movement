@@ -2,7 +2,7 @@ class_name Runner
 extends CharacterBody2D
 
 @export var max_speed := 600.0
-@export var acceleration := 1000.0
+@export var acceleration := 1100.0
 @export var deceleration := 800.0
 
 @onready var _runner_visual: RunnerVisual = %RunnerVisualRed
