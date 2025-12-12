@@ -102,7 +102,6 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_tsb0o")
 script = ExtResource("10_okwwg")
-animation_duration = null
 
 [node name="BlurColorRect" type="ColorRect" parent="CanvasLayer/PauseScreen"]
 unique_name_in_owner = true
