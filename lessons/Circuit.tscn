@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://cyi426tkmrmjy" path="res://assets/circuit_obstacle.png" id="1_07a6h"]
 
 [node name="StaticBody2D" type="StaticBody2D"]
-position = Vector2(43, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(959.99994, 541.49994)
