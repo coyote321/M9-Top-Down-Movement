@@ -160,3 +160,15 @@ text = "Resume"
 unique_name_in_owner = true
 layout_mode = 2
 text = "Quit"
+
+[node name="SimpleObstacle3" parent="." instance=ExtResource("2_4o7yg")]
+position = Vector2(1125, 100)
+
+[node name="SimpleObstacle7" parent="." instance=ExtResource("2_4o7yg")]
+position = Vector2(960, 465)
+
+[node name="SimpleObstacle8" parent="." instance=ExtResource("2_4o7yg")]
+position = Vector2(506, 741)
+
+[node name="SimpleObstacle9" parent="." instance=ExtResource("2_4o7yg")]
+position = Vector2(677, 537)
