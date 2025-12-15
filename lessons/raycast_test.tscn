@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cypeg7f6ibbbd"]
+
+[ext_resource type="PackedScene" uid="uid://l5vkm11cgaib" path="res://lessons/simple_obstacle.tscn" id="1_k515x"]
+[ext_resource type="PackedScene" uid="uid://dwdga860bidlx" path="res://lessons/runner.tscn" id="2_yfqnp"]
+[ext_resource type="PackedScene" uid="uid://budpgxkjtmw1f" path="res://lessons/bouncer.tscn" id="3_shtk0"]
+
+[node name="RaycastTest" type="Node2D"]
+
+[node name="SimpleObstacle" parent="." instance=ExtResource("1_k515x")]
+position = Vector2(322, 115)
+
+[node name="SimpleObstacle2" parent="." instance=ExtResource("1_k515x")]
+position = Vector2(329, 250)
+
+[node name="SimpleObstacle4" parent="." instance=ExtResource("1_k515x")]
+position = Vector2(418, 172)
+
+[node name="Runner" parent="." instance=ExtResource("2_yfqnp")]
+position = Vector2(536, 279)
+
+[node name="Bouncer" parent="." instance=ExtResource("3_shtk0")]
+position = Vector2(190, 291)
